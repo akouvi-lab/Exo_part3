@@ -72,7 +72,7 @@ else:
         st.write(f"Bienvenue {st.session_state['user_data']['name']} !")
 
     elif choix == "Album Photos":
-        st.title("🐱 Album Photos (GitHub Remote)")
+        st.title("🐱 Bienvenue sur l'album de mes chats")
         
         # Définition des URLs GitHub Raw
         chat1_url = "https://raw.githubusercontent.com/akouvi-lab/Exo_part3/refs/heads/main/chat1.jfif"
@@ -88,3 +88,4 @@ else:
             st.image(chat2_url, caption="Chat 2", use_container_width=True)
         with col3:
             st.image(chat3_url, caption="Chat 3", use_container_width=True)
+
