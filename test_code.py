@@ -41,7 +41,7 @@ if 'connected' not in st.session_state:
 if not st.session_state['connected']:
     # --- PAGE DE CONNEXION ---
     st.title("🔐 Connexion")
-    st.text("identifiant : akouvi , Mot de passe = chat2014")
+    st.text("identifiant : akouvi , Mot de passe = chat2024")
     # Utilisation d'une clé unique pour éviter l'erreur Duplicate Form
     with st.form(key="login_unique_form"):
         user_input = st.text_input("Nom d'utilisateur")
@@ -89,5 +89,6 @@ else:
             st.image(chat2_url, caption="Chat 2", use_container_width=True)
         with col3:
             st.image(chat3_url, caption="Chat 3", use_container_width=True)
+
 
 
